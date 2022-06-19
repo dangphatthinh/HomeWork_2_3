@@ -6,6 +6,7 @@ class Program
     {
         Board b = new Board();
         Data d = new Data();
+        Console.WriteLine("Nhap kich thuoc Board: ");
         b.Size = int.Parse(Console.ReadLine());
         d.ResetArr(d.arr, b.Size);
         b.DrawBoard(d.arr,b.Size);
